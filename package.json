@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/MuhammadAhmad902/farukh/issues"
   },
-  "homepage": "https://github.com/MuhammadAhmad902/farukh#readme"
+  "homepage": "https://github.com/MuhammadAhmad902/farukh#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "watson-developer-cloud": "^3.2.1"
+  }
 }
