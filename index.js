@@ -1,5 +1,6 @@
 var express = require('express');
 var ConversationV1 = require('watson-developer-cloud/conversation/v1');
+const PORT = process.env.PORT || 3000;
 
 var app = express();
 
@@ -79,6 +80,6 @@ app.get('/smssent', function (req, res) {
   res.send('');
 });
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
+app.listen(PORT, function () {
+  console.log('Example app listening on port ' + PORT);
 });
